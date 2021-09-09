@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==3.1"
+djangorestframework = "==3.12"
+django-cors-headers = "*"
+django-environ = "*"
+
+[dev-packages]
+autopep8 = "*"
+flake8 = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+start = "python manage.py runserver"
+migrate = "python manage.py makemigrations & python manage.py migrate"
+su-user = "python manage.py createsuperuser"
+test = "python manage.py test"
+format = "autopep8 -ivr ."
+lint = "flake8 --show-source ."
