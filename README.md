@@ -1,5 +1,5 @@
 # Overview
-- Django REST Framework と Next.js のプロジェクトです
+- Django REST Framework と Next.js のプロジェクトです
 - TwitterライクなSNSアプリを作成しています
 - 機能はminimalに抑え、clone後にも拡張性のあるプロジェクトです
 
